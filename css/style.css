@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background: linear-gradient(273deg, #FFFAE0 0%, rgba(240, 255, 246, 0.00) 100%), #FFC0C0;
+    
+}
+.btn.btn-primary{
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+
+.img {
+    background: url('/task/image/male1.png');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    margin-right: 9px;
+    margin-top: 13px;
+}
+
+.head-info {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.heading {
+    color: #00252F;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sub-h {
+    color: rgba(0, 37, 47, 0.56);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.head-right {
+    padding-top: 9px;
+    padding-bottom: 6px;
+}
+
+.right-heading {
+    color: #888;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.head-right h5 {
+
+    color: #666;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 4px;
+    background-color: #fff;
+    line-height: normal;
+    border-radius: 2px;
+}
+
+.card {
+    color: #AAA;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box {
+    width: 117px;
+    height: 41px;
+
+}
+.title {
+    color: #AAA;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
+}
+
+.info {
+    display: flex;
+    width: 117px;
+    height: 20px;
+    padding: 8px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF6EF;
+}
+
+.icon i {
+    float: right;
+    margin-right: 6px;
+    color: #ED8383;
+}
+
+.box2 {
+    width: 170px;
+    height: 41px;
+    flex-shrink: 0;
+
+}
+
+.box2-title {
+    color: #AAA;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box2-info {
+    display: flex;
+    width: 170px;
+    height: 20px;
+    padding: 8px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF6EF;
+    color: #666;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box2-icon i {
+    color: #ED8383;
+    size: 13px;
+    float: right;
+    margin-right: 6px;
+}
+
+.patient {
+    padding-bottom: 16px;
+    padding-top: 7px;
+}
+
+.ad-head h4 {
+    color: #00252F;
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+
+.ad-subhead {
+    color: #888;
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.patient {
+    background-color: #F8F8F8;
+}
+
+.time {
+    display: flex;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #FF0042;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #fff;
+    margin-left: 14px;
+}
+
+.admission {
+    border-radius: 6px 6px 8px 8px;
+    background: #F8F8F8;
+    padding-top: 13px;
+    padding-bottom: 20px;
+}
+
+.path-icon i {
+    font-size: 28px;
+    color: #3AB748;
+}
+
+.path-info {
+    color: #555;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.path-time p {
+    color: #616161;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.patch-doctor {
+    color: #777;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.patch-doctor i {
+    font-size: 11px;
+    color: #3762A4;
+    margin-right: 3px;
+}
+
+.path-time p {
+    color: #888;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left:-65px;
+}
+ 
+    .path-time {
+        color: #616161;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+.path-icon-mute i {
+    font-size: 15px;
+    border: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.10));
+    font-size: 10px;
+    background: #888888;
+
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* -------------------------------------------step bar----------------------------------------- */
+
+.step.completed{
+    margin-left:35px;
+}
+.step {
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    background-color: cream;
+}
+
+.v-stepper {
+    position: relative;
+}
+
+
+/* regular step */
+.step .circle {
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle i{
+    font-size: 14px;
+    color: #FFF;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.step .line {
+    left: 12px;
+    height: 100%;
+
+    position: absolute;
+    border-left: 1px solid #888;
+    background: rgba(138, 169, 181, 0.24);
+}
+
+.step.completed .circle {
+    visibility: visible;
+    background-color: #3AB748;
+}
+
+
+
+.step.active .circle {
+    visibility: visible;
+    border-color:#3AB748;
+}
+
+.step.empty .circle {
+    visibility: hidden;
+}
+
+.step.empty .line {
+    top: 0;
+    height: 150%;
+}
+
+
+.step:last-child .line {
+    border-left: 3px solid white;
+    z-index: -1;
+}
+
+.content {
+    margin-left: 20px;
+    display: inline-block;
+}
